@@ -3,7 +3,7 @@ import styles from "./ShowUser.module.scss";
 function ShowUser(props) {
   if (props.usersList.length === 0) {
     return (
-      <div className={`${styles["user-block"]} ${styles["no-itens-found"]}`}>
+      <div className={`${styles["users-block__user-block"]} ${styles["no-itens-found"]}`}>
         No items found
       </div>
     );
